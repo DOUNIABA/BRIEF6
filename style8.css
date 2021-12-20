@@ -1,0 +1,112 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{  
+        background-image:url('https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&fit=max&w=930');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(rgb(255, 0, 212), rgb(128, 0, 0), rgb(255, 81, 0), alpha);
+    
+}
+
+
+
+.logo{
+height: 70px;
+width: auto;
+}
+
+
+.form{
+    width: 500px;
+    padding: 30px 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(210, 180, 218);
+    margin: 200PX;
+border-radius: 15px;
+}
+
+
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.form-container h1{
+    font-size: 26px;
+    font-weight: 900;
+    font-weight: bold;
+    color: 
+    rgb(119, 78, 1);
+    padding-left: 37PX;
+
+}
+ .form1 input{
+    height: 40px;
+    background: none;
+    border-radius: 15px;
+    margin: 8px 0;
+    border-color:plum;
+}
+
+.form1 button{
+    width: 100px;
+}
+.form1 p{
+    color: white;
+    padding: 15PX 10PX;
+}
+.form1 a{
+    text-decoration: none;
+    padding: 20PX;
+
+}
+
+@media only screen and (max-width:360px){
+    .form{
+        flex-direction: column;
+    }
+
+    
+
+  
+}
+/*
+.container input{
+    border-radius: 10px;
+    color:black;
+    height: 10px;
+    width: 40%;
+   margin: 8px 0;
+   border-color: burlywood;
+   border:outset;
+   padding-bottom: 20px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    width:400px;
+    align-items: center;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 25PX;
+}

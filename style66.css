@@ -1,0 +1,423 @@
+ body{
+     margin: 0%;
+     padding: 0%;
+     font-family: sans-serif;
+    
+ }
+ .list1{
+     display: none;
+ }
+ .boutton{
+     display: none;
+ }
+ ul{
+     display: flex;
+     list-style-type: none;
+ }
+
+  nav ul li a {
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 24px;
+     font-weight: bold;
+     color: #000000;
+   
+   
+ }
+ .invitaion{
+
+    padding-right: 150px;
+    padding-top: 5px;
+}
+.menu img{
+ 
+    width: 35px;
+    height: 40X;
+ 
+}
+
+.nav1{
+    display: flex; 
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 10px;
+   
+}
+.header1 img{
+ 
+    width: 250px;
+    height: 160X;
+
+  
+}
+
+.header1{
+    display: flex; 
+    background-color: rgb(0, 0, 0);
+  padding-left: 10px;
+ 
+ 
+}
+
+
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0 ;
+
+}
+.header P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+  
+    padding-left: 15px;
+
+}
+ .img {
+    
+
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     width: 100%;
+   margin: 4% 0;
+     
+ }
+ .im1 img{
+padding-left: 25px;
+height: 30px;
+
+ }
+
+
+   .container{
+    text-align: center;
+   }
+.box h2{
+    text-align: center;
+}
+.box h3 {
+  padding: 0 100px;
+}
+.box p {
+    padding: 0 100px;
+}
+.border{
+   
+    background-color: rgb(0, 0, 0);
+  padding-left: 10px;
+}
+
+.border li{
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.border h1{
+    padding:0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:white;
+}
+
+
+.header p{
+    color:white;
+    padding-left: 40px;
+    padding-bottom: 10px;
+
+}
+.loginboutt{
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 10px;
+
+}
+.border2{
+    background-color: black;
+    border-width: 40px;
+    display:flex;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+
+}
+  .border2 p{
+    color: white;
+}
+
+.border2 ul{
+    color:white;
+}
+  
+.list{
+    padding-right: 30PX;
+    display: flex;
+    list-style-type: none;
+
+
+}
+    
+ .list ul{
+    display:inline-block;
+    list-style-type: none;
+   padding-left: 300px;
+   padding-right: 30PX;
+   padding-bottom: 10px;
+   padding: 25px;
+
+}
+
+.list h4{
+   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+body{
+    padding: 10px;
+    margin: 50px;
+    min-height: 100px;
+    overflow-x:hidden ;
+}
+.menu img{
+    display: none;
+}
+nav ul{
+   list-style-type: none;
+   display: inline-flex;
+   text-decoration:none;
+   padding: 10px;
+  padding-right:10px;
+      margin-left: -23px;
+ 
+}
+    nav ul li  a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: black;
+        font-weight: bolder;
+        text-decoration:none;
+        margin: 10px;
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+    .header{
+        background-color: black;
+        border-style:solid ;
+        padding:4px;
+        border-width: 20px; 
+        border-color: black; 
+    }  
+    .boutton{
+        padding-left: 40px;
+    }
+    .hero{
+        position: absolute;
+        margin: 0;
+        padding-left: 850px;
+        top: 130px;
+    }
+h1{
+    color:white;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.header p{
+    color:white;
+    padding-left: 40px;
+}
+.img{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap ;
+    justify-content: space-between;
+   justify-items: center;
+    padding-bottom: 40px;
+    padding-top: 60px;
+  
+}
+.container p{
+color: black;
+
+}
+.container{
+    flex-basis: 25%;
+    padding-right:2px ;
+}
+nav{
+    display: flex;
+}
+.box{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 20em;
+    flex-basis: 50%;
+}
+.monBoutton{
+    padding-top: 460px;
+    padding-righT: 50px;
+    text-align: center;
+    color: linear-gradient(rgb(255, 0, 212), rgb(158, 14, 4) ,orange);
+}
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+    border: none;
+}
+.log{
+    padding-left: 900px;
+    
+}
+
+nav{
+    display: flex;
+}
+
+.list1{
+    display:flex;
+    padding-left: 80PX;
+
+}
+
+.border{
+   background-color: black;
+        border-style:solid ;
+        padding: 4px;
+        border-width: 60px; 
+        border-color: black; 
+        padding-top: 50PX;
+}
+.border li{
+    color: white;
+    list-style-type: none;
+    padding-right: 1500px;
+}
+.border h1{
+    padding:0px;
+    padding-bottom: 0px;
+
+}
+
+.login{
+    position: absolute;
+         margin: 0px;
+        padding-left: 1400px;
+        top: 1060px;
+        padding-top : 150px;
+}
+.images{    margin-left: -23px;
+    padding-top: 60px;
+    display:inline-flex;
+}
+
+.border2{
+    background-color: black;
+    border-width: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.border2 p{
+    color: white;
+}
+
+.border2 ul{
+    color:white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,139px);
+    
+    grid-gap: 64px 315px;
+    grid-auto-rows: minmax(10px,230px);
+    align-items: start;
+    margin-top: 70px;
+    margin-bottom: 135px;
+
+}
+
+.grid__item1{
+grid-column: 1;
+grid-row: 1;
+}
+.grid__item2{
+    grid-column: 2;
+    grid-row: 1;
+    height: 496px;
+
+    }
+
+    .grid__item3{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+.grid__item4{
+    grid-column: 4;
+    grid-row: 1;
+    }
+ 
+
+    .grid__item5{
+        grid-column:1;
+        grid-row :2;
+        margin-top: -67px;
+    }
+    .grid__item6{
+        grid-column:3;
+        grid-row :2;
+
+    }
+    .grid__item7{
+        grid-column:4;
+        grid-row :2;
+        height: 264px;    }
+
+.grid img{
+width: 300%;
+}
+
+
+
+.list{
+    padding-right: 30PX;
+    display: flex;
+    list-style-type: none;
+
+
+}
+    
+ .list ul{
+    display:inline-block;
+    list-style-type: none;
+   padding-left: 300px;
+   padding-right: 30PX;
+   padding-bottom: 10px;
+   padding: 25px;
+
+}
+
+.list h4{
+   padding-bottom: 10px;
+}
+.parafooter{
+    padding-left: 50PX;
+
+}
+footer{
+    padding-top: 20PX;
+
+}
+.loginboutt{
+padding-right: 1500px;
+display: flex;
+}
+}

@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    padding: 0px 0px 0PX 0px;
+}
+
+
+body{
+    background-image:url('https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&fit=max&w=930');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{  
+    height: 100%;
+
+
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(243, 190, 184);
+    margin-top: 39px;
+    
+    left: 4px;
+    right: 84px;
+    height: 719px;
+    margin-bottom: 62px;
+    width: 500px;
+
+
+}
+.form h1{
+    padding-right: 700px;
+    font-style: italic;
+    padding-left: 350px;
+    color:rgb(240, 145, 21);
+    padding-top: 20PX;
+}
+
+.form p{
+    color: white;
+}
+
+.form input{
+    border-radius: 10px;
+    color:black;
+    height: 100px;
+    width: 100%;
+   margin: 8px 0;
+   border-color: burlywood;
+   border:outset;
+}
+
+.icon{
+    display:flex;
+}
+.form h3{
+    font-size: 20px;
+    background:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 255PX;
+    padding-top: 30PX;
+    font-family: cursive;
+    padding-left: 280PX;
+    text-align: center;
+   
+}
+.info p{
+    font-size: 30PX;
+    font-style: oblique;
+    padding-top :20PX;
+    padding-left :400PX;
+    color: #720909;
+}
+.info p{
+    color:#720909;
+}
+.connexion p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: rgb(223, 119, 119);
+}
+
+
+
+.navigate{
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+}
+.form button{
+    width: 100px;
+    height: 60px;
+}
+@media screen and (max-width:768px){
+    .container{
+       width: 50%;
+        height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 260px;
+    }
+    
+ #image img{
+        display:none ; 
+    }
+    .info {
+        justify-content: center;
+    align-items: center;
+    padding-left: 65%;
+    right: 1%;
+
+
+    padding-bottom: 60PX;
+}
+.info p{
+    font-size: 30PX;
+    font-style: oblique;
+    padding-top :20PX;
+    padding-left :200PX;
+    color: #720909;
+}
+     }
+     .info h1 {
+        
+      size: 100%;
+     
+   }
+
+   .form{
+      
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(243, 190, 184);
+    margin-top: 39px;
+    
+    left: 5px;
+    right: 84px;
+    height: 719px;
+    margin-bottom: 62px;
+    width: 480px;
+
+   }
+  
+   .form input{
+   justify-content: center;
+   align-items: center;
+    height: 80px;
+    width:50%;
+   margin: 10px 0;
+  
+}
+
+
+
+
+
+/*
+body{
+    padding:10px;
+    text-align: center;
+    background-image:url('https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&fit=max&w=930');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+main{
+    background:rgba(0,0,0);
+    background: transparent;
+    margin-top: 76px;
+    margin-bottom: 362px;
+    margin-left: 661px;
+    margin-right: 646px;
+    border-radius: 10px;
+    border-color: chocolate;
+
+}
+ul h1{
+    color: black;
+    padding-right: 50px;
+    padding-top: 50px;
+
+}
+ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
